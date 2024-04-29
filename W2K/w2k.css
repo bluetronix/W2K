@@ -1,0 +1,30 @@
+html,body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: rgb(48, 130, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    &:hover{
+        background-color: antiquewhite;
+        font-style: normal;
+    }
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+fieldset{
+    padding: auto;
+    border-radius:0.5rem;
+    border-color:brown;
+    border:dashed;
+    border-width: 0.1rem;
+}
+input{
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    border-color:brown;
+    border-width: 0.1rem;
+}
