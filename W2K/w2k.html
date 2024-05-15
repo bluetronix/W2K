@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+    <link rel="icon" type="image/x-icon" href="../Prac/blue.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cs.css">
-    <script src="js.js"></script>
+    <link rel="stylesheet" href="w2k.css">
+    <script src="w2k.js"></script>
     <title>W2K</title>
 </head>
 <body>
+    <div id="q-u-a-d">
     <fieldset>
         <legend>Solve Quadratic Equation</legend>
         <center>
@@ -22,10 +23,46 @@
         <input id="c" placeholder="Enter Value Of 'c'">
         <br><br>
         <button onclick="quad()">ans</button>
-        <p><x1 id="a1">NaN</x1> x<sup>2</sup> + <x2 id="b1">NaN </x2> x +<x3 id="c1">NaN </x3> = 0</p>
-	<label>Answer</label>
-	<p id="ans"><p>
     </center>
     </fieldset>
+</div>
+<br><br>
+<div id="arperi">
+    <fieldset>
+        <legend>Areas and Perimeters </legend>
+        <center>
+        <label>Enter Length:</label> 
+        <input id="length" placeholder="Enter Length">
+        <br><br>
+        <label>Enter Width:</label>
+        <input id="width" placeholder="Enter Width">
+        <br><br>
+        <label>Enter Height:</label>
+        <input id="height" placeholder="Enter Height">
+        <br><br>
+        <select id="shapes">
+            <option value="choose"> Choose The Apropriate choice of yours </option>
+            <option value="square">Square</option>
+            <option value="rectange">Rectangle</option>
+            <option value="circle">Circle</option>
+            <option value="rohmbus">Rhombus</option>
+            <option value="triangle">Right Angled Triangle</option>
+        </select>
+        <br><br>
+        <button onclick='arperi()'>ans</button>
+        <br><br>
+        <table boder="1">
+            <tr>
+            <td>The area is: </td>
+            <td><p id="value"></p></td>
+            </tr>
+            <tr>
+                <td>The Perimeter is:</td>
+                <td><p id="value1"></p></td>
+            </tr>
+        </table>
+    </center>
+    </fieldset>
+</div>
 </body>
 </html>
