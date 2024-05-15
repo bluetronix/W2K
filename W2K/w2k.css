@@ -28,3 +28,32 @@ input{
     border-color:brown;
     border-width: 0.1rem;
 }
+select{
+    padding: auto;
+    height: 2rem;
+    width: auto;
+    background-color: antiquewhite;
+    border: double;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    border-color: brown;
+}
+option{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+table{
+    border-radius: 0.5rem;
+    border: dashed;
+    border-width: 0.1rem;
+    border-color: brown;
+    
+}
+td{
+    border-radius: 0.5rem;
+    border: dashed;
+    border-width: 0.1rem;
+    border-color: brown;
+    padding: 1rem;
+}
